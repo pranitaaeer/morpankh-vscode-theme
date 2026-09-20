@@ -176,8 +176,22 @@
     "textBlockQuote.background": "#0c1524",               // Blockquote background
     "textBlockQuote.border": "#00f5d4",                   // Blockquote side border (Emerald Teal)
     "textCodeBlock.background": "#070e17",                // Inline code background
-    "textPreformat.foreground": "#d0e1f9"                 // Preformatted code text color
+    "textPreformat.foreground": "#d0e1f9" ,                // Preformatted code text color
 
+    // Notifications Center & Toast Popups (Morpankh Palette)
+    "notificationCenter.border": "#00000000",             // Center border completely transparent
+    "notificationCenterHeader.background": "#070e17",     // Header background
+    "notificationCenterHeader.foreground": "#00f5d4",     // Header text (Emerald Cyan)
+    "notifications.background": "#070e17",                 // Toast popup background (Deep Midnight)
+    "notifications.foreground": "#d0e1f9",                 // Message main text color
+    "notifications.border": "#00000000",                   // Notification outer border transparent
+    "notificationToast.border": "#00000000",              // Toast popup border transparent
+    "notificationsInfoIcon.foreground": "#00f5d4",         // Info icon (i) color (Emerald Cyan)
+    "notificationsWarningIcon.foreground": "#ff842d",      // Warning icon color (Amber Orange)
+    "notificationsErrorIcon.foreground": "#ff4d6d",        // Error icon color (Red Accent)
+    
+    // Notification Action Buttons & Links
+    "notificationLink.foreground": "#00f5d4"              // Clickable links inside notifications
   
   },
   "tokenColors": [
