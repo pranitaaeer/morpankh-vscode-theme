@@ -170,8 +170,13 @@
     "button.hoverBackground": "#00d0b4",                  // Hovering state on primary button
     "button.secondaryBackground": "#1d3557",              // Secondary buttons background
     "button.secondaryForeground": "#d0e1f9",              // Secondary buttons text
-    "button.secondaryHoverBackground": "#2a4870"           // Secondary buttons hover state
+    "button.secondaryHoverBackground": "#2a4870"  ,         // Secondary buttons hover state
 
+    // Markdown Preview UI Styling
+    "textBlockQuote.background": "#0c1524",               // Blockquote background
+    "textBlockQuote.border": "#00f5d4",                   // Blockquote side border (Emerald Teal)
+    "textCodeBlock.background": "#070e17",                // Inline code background
+    "textPreformat.foreground": "#d0e1f9"                 // Preformatted code text color
 
   
   },
@@ -360,6 +365,111 @@
       }
     },
     
+    // ==========================================
+    // MARKDOWN / README SYNTAX HIGHLIGHTING (Clean Morpankh)
+    // ==========================================
+    {
+      "name": "Markdown Headings",
+      "scope": [
+        "heading.1.markdown entity.name.type.markdown",
+        "heading.2.markdown entity.name.type.markdown",
+        "heading.3.markdown entity.name.type.markdown",
+        "heading.4.markdown entity.name.type.markdown",
+        "markup.heading"
+      ],
+      "settings": {
+        "foreground": "#00f5d4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Heading Symbols (#)",
+      "scope": "punctuation.definition.heading.markdown",
+      "settings": {
+        "foreground": "#00b4d8",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Text & Body",
+      "scope": "meta.paragraph.markdown",
+      "settings": {
+        "foreground": "#d0e1f9"
+      }
+    },
+    {
+      "name": "Markdown Bold (**text**)",
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#ff842d",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Italic (*text*)",
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#a3ebe7",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown Links ([Title])",
+      "scope": "string.other.link.title.markdown",
+      "settings": {
+        "foreground": "#00f5d4",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markdown Link URLs ((url))",
+      "scope": [
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown"
+      ],
+      "settings": {
+        "foreground": "#3d5a80"
+      }
+    },
+    {
+      "name": "Markdown Lists (- / * / 1.)",
+      "scope": [
+        "beginning.punctuation.definition.list.markdown",
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#00f5d4"
+      }
+    },
+    {
+      "name": "Markdown Code Blocks (```code``` & `inline`)",
+      "scope": [
+        "markup.inline.raw.string.markdown",
+        "markup.fenced_code.block.markdown",
+        "markup.raw.block.markdown"
+      ],
+      "settings": {
+        "foreground": "#ff842d"
+      }
+    },
+    {
+      "name": "Markdown Table Headers & Borders",
+      "scope": [
+        "punctuation.table.markdown",
+        "markup.table.header"
+      ],
+      "settings": {
+        "foreground": "#00b4d8"
+      }
+    },
+    {
+      "name": "Markdown Blockquotes (> quote)",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#8da9c4",
+        "fontStyle": "italic"
+      }
+    },
     // 1. HTML/XML Tags (Harsh Red se Peacock Teal/Cyan)
     {
       "name": "HTML Tags",
