@@ -1,0 +1,26 @@
+{
+  "name": "my-custom-dark-theme",
+  "displayName": "My Custom Dark Theme",
+  "description": "A sleek, modern dark theme for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Custom Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/my-dark-theme-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "files.associations": {
+        ".env*": "properties"
+      }
+    }
+  }
+}

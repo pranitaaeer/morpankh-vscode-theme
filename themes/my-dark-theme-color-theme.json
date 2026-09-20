@@ -1,0 +1,482 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "My Custom Dark Theme",
+  "colors": {
+    // Backgrounds & Core UI (Deep Krishna Midnight Blue & Indigo)
+    "editor.background": "#040404",
+    "editor.foreground": "#FFFFFF",
+    "editorLineNumber.foreground": "#2e5c55",
+    "editorLineNumber.activeForeground": "#00b4d8",
+    "editor.lineHighlightBackground": "#121b2d",
+    "editor.selectionBackground": "#1d3557",
+    "editor.inactiveSelectionBackground": "#14253f",
+    "editorCursor.foreground": "#00b0f5",
+    
+    // Empty Editor Hint & Link Text
+    "editorHint.foreground": "#00f5d4",                  // Hint text ka main Emerald Cyan color
+    "editorHint.border": "#00000000",                    // Border completely transparent
+    "textLink.foreground": "#334a47",                    // Clickable text links ("Generate code", "select a language")
+    "textLink.activeForeground": "#ff842d",              // Click karte waqt Amber Orange accent
+    "editor.placeholder.foreground": "#5f8f92"  ,         // Subtle muted background text
+   
+    // Activity Bar (Royal Peacock Blue Accent)
+    "activityBar.background": "#040404",
+    "activityBar.foreground": "#44d5ef",
+    "activityBar.activeBorder": "#44d5ef",
+    "activityBarBadge.background": "#00b4d8",
+    "activityBarBadge.foreground": "#070a14",
+
+    // Sidebar (Deep Night Ocean)
+    "sideBar.background": "#040404",
+    "sideBar.foreground": "#FFFFFF",
+    "sideBarTitle.foreground": "#e0f2fe",
+    "sideBarSectionHeader.background": "#0b101d",
+    "sideBarSectionHeader.foreground": "#e0f2fe",
+ 
+  // Sidebar File Explorer & List Colors
+    "list.activeSelectionBackground": "#0c2423",      // Click/Select hone par wahi dark green background
+    "list.activeSelectionForeground": "#00f5d4",      // Select hone par text color (Emerald Cyan)
+    "list.inactiveSelectionBackground": "#091c1b",    // File selected ho par focus kisi aur panel par ho
+    "list.hoverBackground": "#0c2423",                // Mouse hover karne par dark green background
+    "list.hoverForeground": "#59a0a5",                // Mouse hover par text color
+    "list.focusOutline": "#00000000",                 // Border transparent/gayab
+    "list.focusForeground": "#00f5d4",                // Focused text color
+    "list.focusAndSelectionOutline": "#00000000",     // Extra safety border transparent
+    "focusBorder": "#00000000"   ,                     // Overall focus border transparent
+  
+    // Status Bar
+    "statusBar.background": "#070a14",
+    "statusBar.foreground": "#a3ebe7",
+    "statusBar.noFolderBackground": "#070a14",
+    "statusBarItem.remoteBackground": "#00f5d4",
+
+    // Tabs
+    "editorGroupHeader.tabsBackground": "#070a14",
+    "tab.activeBackground": "#0b101d",
+    "tab.activeForeground": "#e0f2fe",
+    "tab.inactiveBackground": "#14253f",
+    "tab.inactiveForeground": "#4a627a",
+    "tab.activeBorder": "#00f5d4",
+
+    // Title Bar
+    "titleBar.activeBackground": "#070a14",
+    "titleBar.activeForeground": "#8da9c4",
+
+    // Command Palette & Quick Open (Morpankh Theme Match)
+    "pickerGroup.border": "#121b2d",               // Group sections ke beech ki divider border
+    "pickerGroup.foreground": "#00f5d4",           // Section headers ka text color (Emerald Teal)
+    "quickInput.background": "#080c18",            // Command Palette popup ka dark background
+    "quickInput.foreground": "#d0e1f9",            // Normal options ka text color (Soft Sky Cyan)
+    "quickInputList.focusBackground": "#1d3557",   // Selected/Hovered item ka background (Deep Blue)
+    "quickInputList.focusForeground": "#00f5d4",   // Selected/Hovered item ka text color (Emerald Cyan)
+    "quickInputList.focusIconForeground": "#00f5d4", // Selected item ke saath wale icon ka color
+    "inputValidation.infoBackground": "#070a14" ,    // Input box background
+   
+   // Dropdown / Context Menu (Morpankh Theme match)
+    "menu.background": "#080c18",                 // Popup menu ka dark midnight background
+    "menu.foreground": "#d0e1f9",                 // Menu items ke text ka color (Soft cyan/blue)
+    "menu.selectionBackground": "#1d3557",        // Menu item hover/selection ka background
+    "menu.selectionForeground": "#00f5d4",        // Menu item hover/selection par text ka color (Emerald Cyan)
+    "menu.selectionBorder": "#00000000",          // Selection active hone par OS outline border hatayega
+    "menu.separatorBackground": "#121b2d",       // Menu ke beech waali divider lines ka color
+    "menu.border": "#00000000",                   // Transparent border               // Menu ke outer border ka color
+ 
+    // Input Box & Command Palette Search Field
+    "input.background": "#121b2d",                 // Input box ka background (Line Highlight waala color)
+    "input.foreground": "#d0e1f9",                 // Input box mein jo aap type karengi uska text color
+    "input.placeholderForeground": "#3d5a80",      // Input box ke andhar ka light placeholder text
+
+    // Tooltip Popup ("Type the name of a command to run.")
+    "widget.shadow": "#00000000",                  // Tooltip/Widget shadow
+    "editorSuggestWidget.background": "#080e18",             // Deep Midnight Background
+    "editorSuggestWidget.border": "#00000000",                 // Outline Border completely transparent/gayab
+    "editorSuggestWidget.foreground": "#d0e1f9",             // Regular items text
+    "editorSuggestWidget.selectedBackground": "#132338",     // Active selected item background
+    "editorSuggestWidget.selectedForeground": "#00f5d4",     // Selected item text color (Emerald Cyan)
+    "editorSuggestWidget.highlightForeground": "#ff842d",    // Typed character matching highlight (Amber Orange)
+    "editorSuggestWidget.focusHighlightForeground": "#ff842d", // Focus item matching highlight
+  
+    // Hover Widget (Mouse hover popup tooltip)
+    "editorHoverWidget.background": "#070e17",             // Deep Midnight Background
+    "editorHoverWidget.foreground": "#f3f3f4",             // Text color
+    "editorHoverWidget.border": "#00000000",                 // Border transparent/gayab
+    "editorHoverWidget.statusBarBackground": "#11233d"  ,    // Bottom status area background (if any)
+   
+    // Integrated Terminal Colors (Morpankh Dark Palette)
+    "terminal.background": "#070b15",               // Terminal ka deep midnight background
+    "terminal.foreground": "#d0e1f9",               // Normal text ka color (Soft cyan/blue)
+    "terminal.selectionBackground": "#1d3557",      // Selected text ka background
+    "terminalCursor.foreground": "#00f5d4",         // Terminal mein blinking cursor का color (Emerald Cyan)
+    "terminalCursor.background": "#070a14",         // Cursor block ke andar ke text ka background
+
+    // Terminal Standard Colors (ANSI Colors)
+    "terminal.ansiBlack": "#070a14",
+    "terminal.ansiRed": "#ff4d6d",
+    "terminal.ansiGreen": "#00f5d4",                 // Success / Git green text
+    "terminal.ansiYellow": "#d4a373",                // Warnings
+    "terminal.ansiBlue": "#00b4d8",                  // Info / Links
+    "terminal.ansiMagenta": "#b5179e",               // Command highlights
+    "terminal.ansiCyan": "#90e0ef",                  // Path / Directory names
+    "terminal.ansiWhite": "#d0e1f9",
+
+    // Bright Variants
+    "terminal.ansiBrightBlack": "#1d3557",
+    "terminal.ansiBrightRed": "#ff6b8b",
+    "terminal.ansiBrightGreen": "#52b788",
+    "terminal.ansiBrightYellow": "#e9c46a",
+    "terminal.ansiBrightBlue": "#48cae4",
+    "terminal.ansiBrightMagenta": "#f7aef8",
+    "terminal.ansiBrightCyan": "#a5f3fc",
+    "terminal.ansiBrightWhite": "#ffffff",
+
+    
+    // Global & Focus Borders
+    "panel.border": "#00000000",
+    "sideBar.border": "#00000000",
+    "commandCenter.border": "#00000000",
+    "editorGroup.border": "#00000000"   ,  // Avatar icon color
+   
+    "gitDecoration.addedResourceForeground": "#00f5d4",         // New added files (Teal)
+    "gitDecoration.modifiedResourceForeground": "#ff842d",      // Modified files (Amber)
+    "gitDecoration.deletedResourceForeground": "#f03f6c",       // Deleted files (Magenta/Pink)
+    "gitDecoration.untrackedResourceForeground": "#23b3a9",     // Untracked files (Cyan)
+    "gitDecoration.ignoredResourceForeground": "#537188",        // .gitignore files (Dim Gray)
+ 
+     "breadcrumb.foreground": "#d0e1f9",
+     "breadcrumb.focusForeground": "#00f5d4",
+     "breadcrumb.activeSelectionForeground": "#00f5d4",
+ 
+     "editor.findMatchBackground": "#1d3557",
+     "editor.findMatchHighlightBackground": "#132338",
+
+     // Settings UI Page Styling
+    "settings.headerForeground": "#83ccc2",               // Main headings ("Commonly Used", etc.)
+    "settings.modifiedItemIndicator": "#00f5d4",           // Modified setting ke side ki indicator line
+    "settings.dropdownBackground": "#070e17",             // Dropdown select box background
+    "settings.dropdownForeground": "#d0e1f9",             // Dropdown select box text
+    "settings.dropdownBorder": "#121b2d",                 // Dropdown border
+    "settings.dropdownListBorder": "#121b2d",             // Dropdown list border
+    "settings.checkboxBackground": "#070e17",             // Checkbox background
+    "settings.checkboxForeground": "#00f5d4",             // Checkbox checkmark color
+    "settings.checkboxBorder": "#121b2d",                 // Checkbox border
+    "settings.rowHoverBackground": "#0c1524",             // Settings list item hover background
+    "settings.textInputBackground": "#121b2d",            // Number/Text input box background
+    "settings.textInputForeground": "#d0e1f9",            // Text input value color
+    "settings.textInputBorder": "#00000000",              // Text input border transparent
+
+    // Buttons (Right top "Backup and Sync Settings" button)
+    "button.background": "#72b3aa",                       // Main primary button background (Emerald Cyan)
+    "button.foreground": "#070a14",                       // Button text color (Dark for high contrast)
+    "button.hoverBackground": "#00d0b4",                  // Hovering state on primary button
+    "button.secondaryBackground": "#1d3557",              // Secondary buttons background
+    "button.secondaryForeground": "#d0e1f9",              // Secondary buttons text
+    "button.secondaryHoverBackground": "#2a4870"           // Secondary buttons hover state
+
+
+  
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#e7e9ec",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Functions and Storage Keywords",
+      "scope": [
+        "storage.type",
+        "storage.modifier",
+        "keyword.declaration.function",
+        "keyword.other.declaration-specifier.function"
+      ],
+      "settings": {
+        // Iss generic magenta/pink ko Morpankh Emerald Green se replace kar rahe hain
+        "foreground": "#f03f6c", 
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Strings (Lush Peacock Emerald Green)",
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": {
+        "foreground": "#00f5d4"
+      }
+    },
+    // 1. Uncalled / Default Functions & Arrow Function Declarations
+    {
+      "name": "Functions & Methods (Default / Declaration)",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call.declaration",
+        "meta.definition.function entity.name.function",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#35756e"        // Dimmer Teal (Uncalled function tone)
+      }
+    },
+
+    // 2. Function Calls (Including Arrow Function Calls and Execution Sites)
+    {
+      "name": "Function Calls & Executed Arrow Functions",
+      "scope": [
+        "meta.function-call entity.name.function",
+        "meta.function-call variable.function",
+        "entity.name.function.call",
+        "support.function.any-method",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#23b3a9"        // Vibrant Bright Cyan (Called/Executed tone)
+      }
+    },
+    {
+      "name": "Function Parameters",
+      "scope": [
+        "variable.parameter",
+        "variable.parameter.js",
+        "variable.parameter.ts",
+        "meta.parameter variable",
+        "meta.function.parameters variable",
+        "parameter.variable"
+      ],
+      "settings": {
+        "foreground": "#f4b508",         // Bright Morpankh Amber/Orange accent
+        "fontStyle": "italic"
+      }
+    },
+    // Unused Function Parameters & Variables (Disabled Yellow / Muted Amber)
+    {
+      "name": "Unused Parameters and Variables",
+      "scope": [
+        "meta.unnecessary",
+        "sublimelitematerial.unnecessary",
+        "punctuation.definition.variable.unnecessary"
+      ],
+      "settings": {
+        "foreground": "#9e8226",        // Dim/Disabled Muted Yellow
+        "fontStyle": "italic"
+      }
+    },
+    // Unused Functions (Declared but never called)
+    {
+      "name": "Unused Functions",
+      "scope": [
+        "entity.name.function.unnecessary",
+        "variable.function.unnecessary",
+        "meta.function.unnecessary entity.name.function",
+        "meta.definition.function.unnecessary"
+      ],
+      "settings": {
+        "foreground": "#35756e",        // Unused Function Muted Teal Tone
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Variables (Soft Sky Cyan)",
+      "scope": ["variable", "identifier"],
+      "settings": {
+        "foreground": "#90e0ef"
+      }
+    },
+    {
+      "name": "Member Functions (like .log, .error)",
+      "scope": [
+        "entity.name.function.member",
+        "support.function.console"
+      ],
+      "settings": {
+        // Deep Peacock Blue range
+        "foreground": "#ff842d",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Console, Window, Process objects",
+      "scope": [
+        "support.variable",
+        "support.type.object.console",
+        "meta.function-call.static.js"
+      ],
+      "settings": {
+        // Inhe Soft Sky Blue range mein rakh rahe hain, dull cyan se behtar
+        "foreground": "#35cce7", 
+        "fontStyle": "italic"
+      }
+    },
+    // Keywords (if, else, return, import, export, from, async, await, etc.)
+    {
+      "name": "Control Flow and Module Keywords",
+      "scope": [
+        "keyword.control",
+        "keyword.control.conditional",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.flow",
+        "keyword.other.import",
+        "keyword.other.export"
+      ],
+      "settings": {
+        "foreground": "#f76aa7",        // Morpankh Chandrika Purple / Magenta
+        "fontStyle": "bold"
+      }
+    },
+    // .env Keys (mongodb_UrI, PORT, MONGO_URI)
+    {
+      "name": "ENV Keys",
+      "scope": [
+        "variable.other.env",
+        "keyword.other.env",
+        "source.env variable",
+        "keyword.other.definition.ini",
+        "support.type.property-name.ini",
+        "entity.name.section.group.title.ini"
+      ],
+      "settings": {
+        "foreground": "#2c5b48",
+        "fontStyle": "bold"
+      }
+    },
+
+    // .env Values ("mongodb", "5000", secret values)
+    {
+      "name": "ENV Values",
+      "scope": [
+        "string.quoted.double.env",
+        "string.quoted.single.env",
+        "string.unquoted.env",
+        "source.env string",
+        "value.ini",
+        "string.quoted.single.ini",
+        "string.quoted.double.ini",
+        "source.ini string"
+      ],
+      "settings": {
+        "foreground": "#00f5d4"
+      }
+    },
+    
+    // 1. HTML/XML Tags (Harsh Red se Peacock Teal/Cyan)
+    {
+      "name": "HTML Tags",
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#436763",        // Royal Peacock Cyan (Tags like html, meta, head, body, h1)
+        "fontStyle": "bold"
+      }
+    },
+
+    // 2. HTML Attributes (like lang, charset, name, content)
+    {
+      "name": "HTML Attributes",
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "#ff842d",        // Bright Emerald Cyan
+        "fontStyle": "italic"
+      }
+    },
+
+    // 3. DOCTYPE declaration (<!DOCTYPE html>)
+    {
+      "name": "DOCTYPE Declaration",
+      "scope": [
+        "meta.tag.metadata.doctype",
+        "keyword.operator.expression.doctype"
+      ],
+      "settings": {
+        "foreground": "#3d5a80",        // Soft Muted Cyan
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "CSS Classes & IDs",
+      "scope": ["entity.other.attribute-name.class", "entity.other.attribute-name.id"],
+      "settings": { "foreground": "#00f5d4", "fontStyle": "bold" }
+    },
+    {
+      "name": "CSS Properties",
+      "scope": ["support.type.property-name.css"],
+      "settings": { "foreground": "#90e0ef" }
+    },
+    // 1. Numbers, Booleans, Null (Python, JS, C++, Java)
+    {
+      "name": "Constants and Numbers",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character"
+      ],
+      "settings": {
+        "foreground": "#ff842d",
+        "fontStyle": "bold"
+      }
+    },
+
+    // 2. Operators & Punctuation (+, -, =, ==, =>, {}, [], ;)
+   {
+      "name": "Object Properties and JSON Keys",
+      "scope": [
+        "support.type.property-name",
+        "variable.other.property",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#90e0ef"
+      }
+    },
+
+    // 3. Object Properties & Keys (JSON, YAML, JS Objects)
+    // JSON Keys & Object Properties (#2e5c55 Teal Color)
+    {
+      "name": "JSON Keys and Object Properties",
+      "scope": [
+        "support.type.property-name.json",
+        "string.json",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#70bdc2"
+      }
+    },
+    {
+      "name": "Classes & Types (Emerald Teal)",
+      "scope": ["entity.name.type", "entity.name.class", "support.type", "support.class"],
+      "settings": {
+        "foreground": "#52b788"
+      }
+    },
+    {
+      "name": "Annotations & Decorators (@Component, @override, @app.route)",
+      "scope": ["meta.annotation", "entity.name.type.annotation", "meta.decorator"],
+      "settings": { "foreground": "#f593e7", "fontStyle": "italic" }
+    }
+  ],
+ "semanticTokenColors": {
+    // 1. Unused / Uncalled Functions (Default Declaration State - Muted Teal)
+    "function": "#35756e",
+    "function.declaration": "#35756e",
+    "function.definition": "#35756e",
+    "variable.function": "#35756e",
+
+    // 2. Call Sites & Executed Functions (Bright Cyan Blue)
+    "function.call": "#23b3a9",
+    "method.call": "#23b3a9",
+    "variable.function:call": "#23b3a9",
+    "*.call": "#23b3a9",
+
+    // 3. Unused Modifiers
+    "function.unnecessary": "#35756e",
+    "function:unnecessary": "#35756e"
+  }
+}
